@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col">
+    <div class="row">
+      <h6 class="text-uppercase text-secondary">
+        <i>product details resolver route</i>
+      </h6>
+    </div>
+    <section>
+      <div class="row">
+        <h3 style="margin-left: 0px" class="text-primary">PRODUCT</h3>
+        <div class="col-12 text-capitalize">
+          <div class="text-secondary">
+            userId: #{{ routerSnapShotData.userId }}
+          </div>
+          <div>{{ routerSnapShotData.title }}</div>
+        </div>
+        <div class="col">
+          {{ routerSnapShotData.body }}
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-6"></span>
+            <span class="placeholder col-8"></span>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
