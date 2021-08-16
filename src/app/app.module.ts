@@ -3,6 +3,7 @@ import { ProductDataResolverService } from './services/product-data-resolver.ser
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { LoginModule } from '../app/modules/login/login.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,7 +16,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    LoginModule
   ],
   providers: [ProductDataResolverService],
   bootstrap: [AppComponent]
