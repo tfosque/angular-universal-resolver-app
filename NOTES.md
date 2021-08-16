@@ -10,3 +10,9 @@
 #### Serving Universal Locally
 
 - does ng serve --prod work in pro+ environment?
+
+#### Next Steps
+
+- Releastic create a session that logs in and logs out
+- Perform a better api call and slow the network to help simulate issue
+- Test forward and backward buttons
